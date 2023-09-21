@@ -64,10 +64,6 @@ body, html{
   padding: 8px 0;
 }
 
-#dropdown2-item {
-  line-height: normal !important;
-}
-
 .dropdown-item:hover {
   background-color: rgb(64, 70, 70);
 }
