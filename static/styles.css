@@ -47,11 +47,11 @@ body, html{
   display: none;
 }
 
-.dropdown-name:hover {
+.dropdown:hover .dropdown-name {
   background-color: rgb(64, 70, 70);
 }
 
-.dropdown-name:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
