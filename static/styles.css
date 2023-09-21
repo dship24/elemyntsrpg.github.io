@@ -1,7 +1,7 @@
 body, html{
   margin: 0;
   padding: 0;
-  background-color: blue;
+  background-color: white;
 }
 
 .navbar {
@@ -17,49 +17,6 @@ body, html{
   height: 100%;
   width: 12%;
 }
-.dropdown {
-  position: relative;
-  display: inline-block;
-  width: 15%;
-  height: auto;
-  top: 0;
-}
-
-.dropdown-name {
-  color: white;
-  height: 100%;
-  width: auto;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(30, 30, 30);
-  z-index: 1;
-  color: white;
-  width: 100%;
-}
-
-.dropdown:hover .dropdown-content {
-  display:block;
-}
-
-.dropdown:hover .dropdown-name {
- background-color: rgb(33, 33, 33);
-}
-
-.dropdown-item {
-  padding: 10px;
-  margin: 0;
-  text-align: center;
-}
-
-.dropdown-item:hover {
- background-color: rgb(41, 41, 41);
- }
 
 .navbar a{
  float: right;
