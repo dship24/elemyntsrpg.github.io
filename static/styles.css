@@ -28,7 +28,6 @@ body, html{
 }
 
 .dropdown-name {
-  background color: black;
   color: white;
   font-size: 18px;
   display: block;
@@ -43,6 +42,8 @@ body, html{
   margin: 0;
   padding: 0;
   display: none;
+  position: absolute;
+  width: 100%;
 }
 
 .dropdown:hover .dropdown-name {
@@ -60,8 +61,11 @@ body, html{
   text-align: center;
   line-height: 40px;
   margin: 0;
-  padding: 0;
-  text-wrap: wrap;
+  padding: 8px 0;
+}
+
+#dropdown2-item {
+  line-height: normal !important;
 }
 
 .dropdown-item:hover {
