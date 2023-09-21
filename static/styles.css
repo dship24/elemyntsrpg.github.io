@@ -23,10 +23,8 @@ body, html{
   position: relative;
   display: inline-block;
   width: 12%;
-}
-
-#dropdown1 {
   left: 14%;
+  background-color: black;
 }
 
 .dropdown-name {
